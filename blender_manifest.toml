@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "clean_fbx_export"
+version = "1.0.0"
+name = "Clean FBX Export"
+tagline = "Export static models and rigs with clean FBX hierarchies"
+maintainer = "OpenCode"
+type = "add-on"
+tags = ["Import-Export", "Rigging"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Write FBX exports and technical reports"
+
+[build]
+paths = ["__init__.py", "clean_fbx_export.py", "README.md"]
